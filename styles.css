@@ -11,7 +11,27 @@ img {
 }
 
 h1 span{
-    background-color: rgb(250,100,20)
+    background-color: rgb(250,100,20);
+    padding: 10px;
+    margin: 10px
+}
+
+h1 {
+    margin: 10px;
+}
+
+h2 span{
+    background-color: orange;
+    padding: 10px;
+}
+
+h2 {
+    padding: 10px;
+    margin: 10px;
+}
+
+h3 span{
+    background-color: orange;
 }
 
 p span{
@@ -28,4 +48,28 @@ ul {
 
 li {
     text-align: left
+}
+
+.linksbox {
+    display: flex;
+    border: 2px solid black;
+    margin: auto;
+    padding: 20px;
+    background-color: green
+}
+
+.links {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    margin: auto;
+    background-color: beige;
+}
+
+.links:hover {
+    background-color: orange
+}
+
+body {
+    background-image: url("fanghorn.jpeg")
 }
