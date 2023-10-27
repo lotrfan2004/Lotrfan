@@ -34,6 +34,10 @@ h3 span{
     background-color: orange;
 }
 
+h3 {
+    padding: 10px;
+}
+
 p span{
     background-color:rgb(250,150,20,10)
 }
@@ -67,9 +71,24 @@ li {
 }
 
 .links:hover {
-    background-color: orange
+    background-image: url("tiedye.jpeg");
+    color: white;
+    font-weight: 900;
+    .url {
+        color: white;
+        text-shadow: black 1px 0 10px;
+    }
 }
 
 body {
     background-image: url("fanghorn.jpeg")
+}
+
+.url {
+    color: black;
+}
+
+.url:hover {
+    color: white;
+    text-shadow: black 1px 0 20px;
 }
