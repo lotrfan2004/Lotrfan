@@ -81,7 +81,7 @@ li {
 }
 
 body {
-    background-image: url("fanghorn.jpeg")
+    background-color: black;
 }
 
 .url {
@@ -91,4 +91,12 @@ body {
 .url:hover {
     color: white;
     text-shadow: black 1px 0 20px;
+}
+
+.superdiv {
+    border: solid 2px;
+    margin: 20px;
+    padding: 20px;
+    background-image: url("fanghorn.jpeg")
+
 }
