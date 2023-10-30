@@ -14,17 +14,21 @@ img {
 h1 span{
     background-color: rgb(250,100,20);
     padding: 10px;
-    margin: 10px
+    margin: 10px;
+    text-align: center;
 }
 
 h1 {
     margin: 10px;
+    font-size:5vw;
 }
 
 h2 span{
     background-color: orange;
     padding: 10px;
     margin 10px;
+    text-align: center;
+    font-size:3vw;
 }
 
 h2 {
@@ -113,7 +117,7 @@ body {
     border: solid 2px;
     margin: 20px;
     padding: 10px;
-    background-color: rgb(244, 158, 0);
+    background-color: white;
     display: flex;
     position: fixed;
     bottom: 10%;
