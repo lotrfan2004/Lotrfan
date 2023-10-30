@@ -101,7 +101,7 @@ body {
 
 .superdiv {
     border: solid 2px;
-    margin: 20px;
+    margin: auto;
     padding: 20px;
     background-image: url("fanghorn.jpeg");
     box-shadow: 1px 1px 4px black;
@@ -115,7 +115,8 @@ body {
     background-color: rgb(244, 158, 0);
     display: flex;
     position: fixed;
-    top: 10px;
+    bottom: 10%;
+    right: 3%;
     right: 10px;
     width: 100px;
     height: 100px;
